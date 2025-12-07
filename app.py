@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import pickle
 import numpy as np
@@ -51,3 +50,4 @@ if st.button("예측하기"):
     pred_value = int(result[0])
 
     st.success(f"예측된 올림픽공원 입장객 수: **{pred_value:,}명**")
+
